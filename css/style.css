@@ -213,6 +213,7 @@ header nav ul li:last-of-type a {
     display: flex;
     justify-content: center;
     box-sizing: border-box;
+    min-height: 414px;
 }
 
 .last_banner article {
