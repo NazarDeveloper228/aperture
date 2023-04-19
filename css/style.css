@@ -115,6 +115,7 @@ header nav ul li:last-of-type a {
     align-items: center;
     padding-right: 62px;
     box-sizing: border-box;
+    position: relative;
 }
 
 .sunset article {
@@ -149,6 +150,7 @@ header nav ul li:last-of-type a {
     align-items: center;
     padding-right: 62px;
     box-sizing: border-box;
+    position: relative;
 }
 
 .monstera article {
@@ -183,6 +185,7 @@ header nav ul li:last-of-type a {
     align-items: center;
     padding-right: 62px;
     box-sizing: border-box;
+    position: relative;
 }
 
 .mountines article {
@@ -417,11 +420,18 @@ header nav ul li:last-of-type a {
     position: relative;
     min-height: 540px;
     background-color: black;
+    position: relative;
 }
 
 .tools .container {
-    margin: auto;
     max-width: 1240px;
+    min-height: 540px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.tools .sub_container{
+    max-width: 514px;
 }
 
 .tools .by_img {
@@ -433,7 +443,59 @@ header nav ul li:last-of-type a {
     background-image: url("../images/by_img.jpg");
     background-size: cover;
 }
-
+.tools h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+    padding-bottom: 6px;
+}
+.tools h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    color: #FFFFFF;
+    padding-bottom: 14px;
+}
+.tools p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding-bottom: 29px;
+}
+.tools a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: #000000;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-right: 10px;
+    background-color: white;
+    border-radius: 14px;
+    box-sizing: border-box;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+}
+.tools a::before {
+    content: " ";
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-color: black;
+    border-radius: 45%;
+    margin-left: 4px;
+    margin-right: 6px;
+}
 .bottom_items {
     position: absolute;
     right: 40px;
@@ -523,3 +585,39 @@ footer form button{
     border-radius: 11px;
     border: none;
 }
+/*@keyframes shake {*/
+/*    0%{*/
+/*        position: absolute;*/
+/*    }*/
+/*    50%{*/
+/*        left: 10%;*/
+/*        top: 20px;*/
+/*        transform: rotate(360deg);*/
+/*    }*/
+/*    60%{*/
+/*        left: 60%;*/
+/*        bottom: 13%;*/
+/*        transform: rotate(180deg);*/
+/*    }*/
+/*    70%{*/
+/*        left: 60%;*/
+/*        bottom: 13%;*/
+/*        transform: rotate(180deg);*/
+/*    }*/
+/*    80%{*/
+/*        left: 60%;*/
+/*        bottom: 13%;*/
+/*        transform: rotate(180deg);*/
+/*    }*/
+/*    100%{*/
+/*        position: absolute;*/
+/*    }*/
+/*}*/
+/*.shake{*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*    background: red;*/
+/*    position: absolute;*/
+/*    z-index: 10;*/
+/*    animation: shake infinite 3s;*/
+/*}*/
